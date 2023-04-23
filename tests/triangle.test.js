@@ -9,7 +9,7 @@ describe("Triangle", () => {
     <svg version="1.1" baseProfile="full" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
             <rect width="300" height="200" fill="white" stroke="#000000" stroke-width="2" />
             <polygon points="10,190 290,190 150,10" fill="${shapeColor}"/>
-            <text fill="${textColor}" font-size="75" text-anchor="middle" x="155" y="125">${text}</text>
+            <text fill="${textColor}" font-size="75" text-anchor="middle" x="155" y="175">${text}</text>
     </svg>`);
   });
 });
